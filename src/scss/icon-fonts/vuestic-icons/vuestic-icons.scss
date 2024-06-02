@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Vuestic Icons';
+  font-weight: normal;
+  font-style: normal;
+  src: url('Vuestic-icons.eot');
+  src:
+    url('/src/scss/icon-fonts/Vuestic-icons/Vuestic-icons.eot?#iefix?local') format('eot'),
+    url('/src/scss/icon-fonts/Vuestic-icons/Vuestic-icons.woff?url') format('woff'),
+    url('/src/scss/icon-fonts/Vuestic-icons/Vuestic-icons.ttf') format('truetype'),
+    url('/src/scss/icon-fonts/Vuestic-icons/Vuestic-icons.svg#Vuestic-icons') format('svg');
+}
+
+.Vuestic-iconset {
+  line-height: 1;
+}
+
+.Vuestic-iconset::before {
+  display: inline-block;
+  font-family: 'Vuestic Icons';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Vuestic-iconset-comments::before {
+  content: '\0041';
+}
+
+.Vuestic-iconset-components::before {
+  content: '\0042';
+}
+
+.Vuestic-iconset-dashboard::before {
+  content: '\0043';
+}
+
+.Vuestic-iconset-extras::before {
+  content: '\0044';
+}
+
+.Vuestic-iconset-files::before {
+  content: '\0045';
+}
+
+.Vuestic-iconset-forms::before {
+  content: '\0046';
+}
+
+.Vuestic-iconset-graph::before {
+  content: '\0047';
+}
+
+.Vuestic-iconset-auth::before {
+  content: '\0048';
+}
+
+.Vuestic-iconset-image::before {
+  content: '\0049';
+}
+
+.Vuestic-iconset-maps::before {
+  content: '\004a';
+}
+
+.Vuestic-iconset-music::before {
+  content: '\004b';
+}
+
+.Vuestic-iconset-settings::before {
+  content: '\004c';
+}
+
+.Vuestic-iconset-statistics::before {
+  content: '\004d';
+}
+
+.Vuestic-iconset-tables::before {
+  content: '\004e';
+}
+
+.Vuestic-iconset-time::before {
+  content: '\004f';
+}
+
+.Vuestic-iconset-ui-elements::before {
+  content: '\0050';
+}
+
+.Vuestic-iconset-user::before {
+  content: '\0051';
+}
+
+.Vuestic-iconset-video::before {
+  content: '\0052';
+}
